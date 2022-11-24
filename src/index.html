@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="./app.js"></script>
+
     <title>Morph</title>
 </head>
-<body>
-    <div class="bg-blue-500">aaa</div>
+
+<body class="">
+
+
+    <header class="relative h-screen">
+        <nav class=" bg-white w-[40%] h-[20%] overflow-hidden">
+
+            <div class="nav-closed bg-green-400 h-[20%] w-[40%] absolute 
+           flex justify-around items-center">
+
+                <h3 class="text-3xl font-bold ">Portfolio</h3>
+                <ul class="lg:flex justify-around items-center gap-10 lg:text-2xl">
+                    <li><a id="open_close" class="hover:text-red-500" href="#">Shop</a></li>
+                    <li><a class="hover:text-red-500" href="#">Sales</a></li>
+                    <li><a class="hover:text-red-500" href="#">Mega Offers</a></li>
+                </ul>
+
+            </div>
+
+            <div class="nav-opened bg-red-500 h-[80%] w-[40%] top-[20%] absolute">
+                <div>XXXXXXXX</div>
+                <div>XXXXXXXX</div>
+            </div>
+        </nav>
+
+        <img src="./images/long-cover.jpg"
+            class="cover absolute top-0 right-0 w-full h-full object-cover object-right-top -z-10">
+
+
+
+    </header>
+
+
+
+
+
 </body>
+
 </html>
